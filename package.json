@@ -1,0 +1,29 @@
+{
+  "name": "js-programming-ridles",
+  "version": "1.0.0",
+  "description": "A collection of popular programming riddles and their solutions in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baneDD/programming-riddles-in-js.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "riddles",
+    "algorithms"
+  ],
+  "author": "Bane Debeljevic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baneDD/programming-riddles-in-js/issues"
+  },
+  "homepage": "https://github.com/baneDD/programming-riddles-in-js#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
