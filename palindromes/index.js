@@ -9,5 +9,5 @@ module.exports.isPalindrome = str => {
   str = str.replace(/[^0-9a-zA-Z]/g, "").toLowerCase();
 
   // NOTE: We could reverse the string in multiple ways, including using Array.reverse and various loops
-  return str.split("").reduce((cur, acc) => acc + cur) === str;
+  return str.split("").reduce((acc, cur) => cur + acc) === str;
 };
