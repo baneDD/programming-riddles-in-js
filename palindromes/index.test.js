@@ -40,4 +40,12 @@ describe("Palindrome Tester Function", () => {
   test("It should return true for 'Sonos'", () => {
     expect(isPalindrome("Sonos")).toBeTruthy();
   });
+
+  test("It should return true for 'Eva, Can I Stab Bats In A Cave?'", () => {
+    expect(isPalindrome("Eva, Can I Stab Bats In A Cave?")).toBeTruthy();
+  });
+
+  test("It should return true for 'A Santa Lived As a Devil At NASA'", () => {
+    expect(isPalindrome("A Santa Lived As a Devil At NASA")).toBeTruthy();
+  });
 });
