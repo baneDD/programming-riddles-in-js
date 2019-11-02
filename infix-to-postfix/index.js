@@ -1,4 +1,4 @@
-exports.toPostfix = infix => {
+exports.infixToPostfix = infix => {
   let tokens = [...infix];
   let output = "";
   let operatorStack = [];
