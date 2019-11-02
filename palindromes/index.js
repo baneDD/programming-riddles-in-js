@@ -1,4 +1,4 @@
-module.exports.isPalindrome = str => {
+exports.isPalindrome = str => {
   // Empty string should return falsy result
   if (!str) return false;
 

@@ -1,4 +1,4 @@
-module.exports.longestWord = str => {
+exports.longestWord = str => {
   if (!str) return 0;
 
   return str
